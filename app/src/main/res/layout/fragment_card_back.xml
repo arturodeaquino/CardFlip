@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a6c"
+    android:padding="16dp"
+    android:gravity="bottom">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@android:id/text1"
+        style="?android:textAppearanceLarge"
+        android:textColor="#fff"
+        android:text="@string/card_back_title"/>
+
+    <TextView
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textColor="#80FFFFFF"
+        android:textStyle="bold"
+        android:text="@string/card_back_description"
+        android:lineSpacingMultiplier="1.2"/>
+
+</LinearLayout>
